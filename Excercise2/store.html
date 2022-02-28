@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOBP e-commerce store</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="index.js"></script>
+    <script src="cart.js" async></script>
+
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="band-name band-name-large">OOBP store (with Turbo influence)</h1>
+    </header>
+    <section class="container content-section">
+        <h2 class="section-header">FOR SUPPORTERS & MEMBERS</h2>
+            <div class="shop-items", id="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Corgi patch</span>
+                    <img class="shop-item-image" src="Images/logo_corgi.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">6.99€</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">0€</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="band-name">Turbonipple shop</h3>
+        </div>
+    </footer>
+</body>
+</html>
